@@ -1,3 +1,7 @@
+# https://github.com/LunaZeeffUF/lab11-LZ-AC
+# Partner 1: Luna Zeeff
+# Partner 2: Adolfo Camacho
+
 """
 calculator.py
 - Defines functions used to create a simple calculator

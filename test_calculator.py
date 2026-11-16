@@ -1,3 +1,7 @@
+# https://github.com/LunaZeeffUF/lab11-LZ-AC
+# Partner 1: Luna Zeeff
+# Partner 2: Adolfo Camacho
+
 import unittest
 from calculator import *
 
@@ -9,9 +13,9 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(5, add(-1, 6))
 
     def test_subtract(self): # 3 assertions
-        self.assertEqual(5, sub(10, 5))
-        self.assertEqual(5, sub(5, 0))
-        self.assertEqual(5, sub(0, -5))
+        self.assertEqual(5, subtract(10, 5))
+        self.assertEqual(5, subtract(5, 0))
+        self.assertEqual(5, subtract(0, -5))
 
     ######## Partner 1
     # def test_multiply(self): # 3 assertions
@@ -26,13 +30,13 @@ class TestCalculator(unittest.TestCase):
             div(0, 5)
 
     def test_logarithm(self): # 3 assertions
-        self.assertEqual(3, log(2, 8))
-        self.assertEqual(2, log(2, 4))
-        self.assertEqual(0, log(2, 1))
+        self.assertEqual(3, logarithm(2, 8))
+        self.assertEqual(2, logarithm(2, 4))
+        self.assertEqual(0, logarithm(2, 1))
 
     def test_log_invalid_base(self): # 1 assertion
         with self.assertRaises(ValueError):
-            log(0,1)
+            logarithm(0,1)
     
     ######## Partner 1
     # def test_log_invalid_argument(self): # 1 assertion
